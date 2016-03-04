@@ -1,28 +1,40 @@
-name: CAVE
 favicon: null
-layout_spectrum: 0
-typography_spectrum: 0.23209
-cta:
-  domain: null
-  bucket: null
-  version: null
-analytics:
-  google: null
-  facebook: null
-  twitter: null
+name: CAVE
 opengraph:
   image: null
   type: null
   appId: null
-color:
-  brandColors:
-    - '#E0FBFC'
-    - '#C2DFE3'
-    - '#9DB4C0'
-    - '#5C6B73'
-    - '#253237'
-  brandStrength: 1
-  lightness: 0.28726619738154113
-  saturation: 0.19927146704867482
-  rhythmicContrast: 0.5
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
 purpose: []
+color:
+  saturation: 0.1992715
+  brandStrength: 0.9982079
+  lightness: 0.4121864
+  brandColors:
+    - '#FFFFFF'
+    - '#010401'
+    - '#272827'
+    - '#BDBDBD'
+    - '#5B5C5C'
+  rhythmicContrast: 0.5
+typography_spectrum: 0.23209
+layout_spectrum: 0
+analytics:
+  twitter: null
+  google: null
+  facebook: null
+cta:
+  bucket: null
+  version: null
+  domain: null
