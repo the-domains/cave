@@ -1,0 +1,28 @@
+name: CAVE
+favicon: null
+layout_spectrum: 0.8406165800988674
+typography_spectrum: 0.6675470878835768
+cta:
+  domain: null
+  bucket: null
+  version: null
+analytics:
+  google: null
+  facebook: null
+  twitter: null
+opengraph:
+  image: null
+  type: null
+  appId: null
+color:
+  brandColors:
+    - '#E0FBFC'
+    - '#C2DFE3'
+    - '#9DB4C0'
+    - '#5C6B73'
+    - '#253237'
+  brandStrength: 0.22027935879305005
+  lightness: 0.28726619738154113
+  saturation: 0.19927146704867482
+  rhythmicContrast: 0.24078433704562485
+purpose: []
